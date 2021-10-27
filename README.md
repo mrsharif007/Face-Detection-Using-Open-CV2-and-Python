@@ -8,7 +8,7 @@ URL : https://github.com/opencv/opencv/tree/master/data/haarcascades
 
 A few things to note:
 
-1. The detection works only on grayscale images. So it is important to convert the color image to grayscale. (line 8)
+1. The detection works only on grayscale images. So it is important to convert the color image to grayscale. (line 10)
 
 2. detectMultiScale function (line 10) is used to detect the faces. It takes 3 arguments — the input image, scaleFactor and minNeighbours. scaleFactor specifies how much the image size is reduced with each scale. minNeighbours specifies how many neighbors each candidate rectangle should have to retain it. You can read about it in detail here. You may have to tweak these values to get the best results.
 
