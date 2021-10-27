@@ -1,4 +1,4 @@
-#enter the this command in your terminal to install numpy and openCV--->  pip install opencv-contrib-python
 numpy==1.15.4 or higher version
-
 opencv-python==3.4.3.18 or higher version
+
+******enter the this command in your terminal to install numpy and openCV--->  pip install opencv-contrib-python
